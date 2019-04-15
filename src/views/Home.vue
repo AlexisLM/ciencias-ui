@@ -11,6 +11,12 @@
               p {{ site.title }}
             div.site-img
               img(v-bind:src="getImgUrl(site.img)" v-bind:title="site.title")
+
+    .pruebaContenedor.w-100.center.tc
+      h1 Custom Grid
+      #customGrid.center.vh-100.pa2-l.pa1
+        div(v-for="n in 12", v-bind:class="'item'+n")
+          h1 {{n}}
 </template>
 
 <script>
@@ -213,6 +219,40 @@ export default {
     .site {
       grid-column-start: 2;
       grid-column-end: 3;
+    }
+  }
+
+  /* Grid para el ejercicio 4 */
+  #customGrid {
+    display: grid;
+    background-image: url("../assets/images/widgets/springboard-bg.jpg");
+    background-size: 100% 100%;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(6, auto);
+
+    div {
+      border: 1px solid $blue;
+    }
+
+    .item1 {
+      grid-column: 1 / 3;
+      grid-row: 1 / 3;
+    }
+    .item2, .item3 {
+      grid-column: 3 / 5;
+    }
+    .item5 {
+      grid-column: 2 / 4;
+    }
+    .item7 {
+      grid-column: 1 / 3;
+    }
+    .item8 {
+      grid-column: 3 / 5;
+      grid-row: 4 / 6;
+    }
+    .item12 {
+      grid-column: 2 / 5;
     }
   }
 }
