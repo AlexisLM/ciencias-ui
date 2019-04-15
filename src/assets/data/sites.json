@@ -1,0 +1,83 @@
+{
+  "settings": [
+    {
+      "min": 1,
+      "max": 12,
+      "lmax": 12
+    }
+  ],
+  "sitesArray": [
+    {
+      "title": "Android Developers",
+      "img": "android.png",
+      "favicon": "android-favicon.png",
+      "url": "https://developer.android.com/"
+    },
+    {
+      "title": "La mejor aplicación para tomar notas | Organiza tus notas con Evernote",
+      "img": "evernote.png",
+      "favicon": "evernote-favicon.png",
+      "url": "https://evernote.com/intl/es-latam/"
+    },
+    {
+      "title": "Facebook",
+      "img": "Facebook.png",
+      "favicon": "facebook-favicon.png",
+      "url": "https://www.facebook.com/"
+    },
+    {
+      "title": "Instagram",
+      "img": "instagram.png",
+      "favicon": "instagram-favicon.png",
+      "url": "https://www.instagram.com/"
+    },
+    {
+      "title": "iOS 12 - Apple (MX)",
+      "img": "ios.png",
+      "favicon": "ios-favicon.png",
+      "url": "https://www.apple.com/mx/ios/ios-12/"
+    },
+    {
+      "title": "Pinterest (México/Mexico)",
+      "img": "pinterest.png",
+      "favicon": "pinterest-favicon.png",
+      "url": "https://www.pinterest.com.mx/"
+    },
+    {
+      "title": "Pushbullet - Your devices working better together",
+      "img": "pushbullet.png",
+      "favicon": "pushbullet-favicon.png",
+      "url": "https://www.pushbullet.com/"
+    },
+    {
+      "title": "Snapchat, ¡la forma más rápida de compartir un momento!",
+      "img": "Snapchat.png",
+      "favicon": "snapchat-favicon.png",
+      "url": "https://www.snapchat.com/l/es/"
+    },
+    {
+      "title": "Telegram Web",
+      "img": "telegram.png",
+      "favicon": "telegram-favicon.png",
+      "url": "https://web.telegram.org/#/login"
+    },
+    {
+      "title": "Regístrate | Tumblr",
+      "img": "tumblr.png",
+      "favicon": "tumblr-favicon.png",
+      "url": "https://www.tumblr.com/"
+    },
+    {
+      "title": "Twitter",
+      "img": "twitter.jpg",
+      "favicon": "twitter-favicon.png",
+      "url": "https://twitter.com/"
+    },
+    {
+      "title": "Youtube",
+      "img": "youtube.png",
+      "favicon": "youtube-favicon.png",
+      "url": "https://www.youtube.com/"
+    }
+  ]
+}
