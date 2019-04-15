@@ -202,6 +202,27 @@ export default {
     }
   }
 
+  /* Springboard principal con pantalla de min 1025px X 450px */
+  @media (min-width: 1025px) and (max-height: 450px) {
+    #gridSpringboard1 {
+      height: calc(595vh / 4);
+    }
+  }
+
+  /* Springboard principal con pantalla de max 1025px X 450px */
+  @media (max-width: 1024px) and (max-height: 450px) {
+    #gridSpringboard1 {
+      height: calc(595vh / 3);
+    }
+  }
+
+  /* Springboard principal con pantalla de max 767px X 450px */
+  @media (max-width: 767px) and (max-height: 450px) {
+    #gridSpringboard1 {
+      height: calc(595vh / 2);
+    }
+  }
+
   /* Springboard de una sola columna */
   #gridSpringboard2 {
     display: grid;
@@ -219,6 +240,33 @@ export default {
     .site {
       grid-column-start: 2;
       grid-column-end: 3;
+    }
+  }
+
+  /* Springboard de una sola columna con pantalla de ancho de hasta 600px */
+  @media (max-width: 600px) {
+    #gridSpringboard2 {
+      width: 65%;
+    }
+  }
+
+  /* Springboard de una sola columna con pantalla de ancho de 601px a 767px */
+  @media (min-width: 601px) and (max-width: 767px) {
+    #gridSpringboard2 {
+      width: 50%;
+    }
+  }
+
+  /* Springboard de una sola columna con pantalla de ancho de 768px a 1024px */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    #gridSpringboard2 {
+      width: 40%;
+    }
+  }
+  /* Springboard de una sola columna con pantalla de altura de hasta 450px */
+  @media (max-height: 450px) {
+    #gridSpringboard2 {
+      height: 640vh;
     }
   }
 
